@@ -25,6 +25,11 @@
                 "allowForLoopAfterthoughts": true
             }
         ],
-        "no-underscore-dangle": ["error", { "allowAfterThis": true }]
+        "no-underscore-dangle": [
+            "error",
+            {
+                "allowAfterThis": true
+            }
+        ]
     }
 }
