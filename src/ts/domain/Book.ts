@@ -1,4 +1,4 @@
-import Buyable from "./Buyable";
+import Buyable from './Buyable';
 
 export default class Book implements Buyable {
   constructor(
@@ -7,5 +7,5 @@ export default class Book implements Buyable {
     readonly author: string,
     readonly price: number,
     readonly pages: number,
-    ) { }
+  ) { }
 }

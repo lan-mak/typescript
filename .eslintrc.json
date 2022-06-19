@@ -5,11 +5,13 @@
         "jest": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "airbnb-typescript/base"
     ],
     "parserOptions": {
         "ecmaVersion": "2018",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig.json"
     },
     "rules": {
         "no-restricted-syntax": [
@@ -22,6 +24,7 @@
             {
                 "allowForLoopAfterthoughts": true
             }
-        ]
+        ],
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }]
     }
 }

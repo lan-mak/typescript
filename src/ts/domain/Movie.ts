@@ -1,4 +1,4 @@
-import Buyable from "./Buyable";
+import Buyable from './Buyable';
 
 export default class Movie implements Buyable {
   constructor(
@@ -10,5 +10,5 @@ export default class Movie implements Buyable {
     readonly movieGenre: string[],
     readonly timeLength: string,
     readonly price: number,
-    ) { }
+  ) { }
 }
